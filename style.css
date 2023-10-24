@@ -16,6 +16,36 @@ body {
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
+li a:link,
+li a:visited {
+  font-size: 16px;
+  text-decoration: none;
+  color: #3587df;
+}
+
+li a:hover,
+li a:active {
+  text-decoration: underline;
+  color: #489cf7;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+.bx {
+  font-size: 18px;
+  color: #3587df;
+}
+
 .btn.btn-primary {
   border: none;
 }
@@ -37,7 +67,7 @@ header h1 {
 }
 
 .navbar-expand-lg .navbar-collapse {
-  /* justify-content: center; */
+  text-align: center;
   width: 100%;
 }
 
@@ -53,6 +83,13 @@ header h1 {
   padding-top: 8px;
   padding-bottom: 8px;
   letter-spacing: -0.5px;
+  /* color: #3587df; */
+  text-decoration: none;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: rgb(230, 160, 32);
+  text-decoration: underline;
 }
 
 /* SWIPER NEWSBANNER STYLES */
@@ -286,4 +323,55 @@ footer div.container {
   width: 100%;
   justify-content: space-between;
   margin-top: 42px;
+}
+
+/* CARRIER INFO CARDS */
+
+/* .carriers-grid .card img {
+  height: 120px;
+  width: auto;
+} */
+
+.card {
+  width: 100%;
+  max-width: 340px;
+  height: 300px;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  /* height: auto; */
+}
+
+.card .btn-primary {
+  width: 100%; /* Make the button span the whole width of the card */
+}
+.card .card-title {
+  font-size: 18px;
+}
+
+/* .card-img-top {
+  margin-bottom: -12px;
+} */
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.modal-body ul {
+  padding-left: 0;
+}
+
+.modal-body .bx {
+  font-size: 28px;
+}
+
+.modal-body a:link,
+.modal-body a:visited {
+  font-size: 18px;
 }
