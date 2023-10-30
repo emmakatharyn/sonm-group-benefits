@@ -1,0 +1,88 @@
+@media screen and (max-width: 1290px) {
+  #aboutUs > img {
+    object-fit: cover;
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .swiper-wrapper {
+    /* width: 100%; */
+    width: 50%;
+  }
+
+  .swiper-pagination {
+    /* display: none; */
+    width: 49%;
+  }
+
+  .swiper-pagination-bullet {
+    font-size: 16px;
+  }
+
+  .swiper-button-next {
+    right: 49.5%;
+  }
+
+  .btn.btn-primary.quicklink {
+    padding: 42px 31px;
+    border-radius: 2px;
+  }
+
+  #aboutUs > img {
+    display: none;
+  }
+
+  footer div.container {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-box {
+    width: 100%;
+  }
+
+  footer div.container.erisa-credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .swiper-wrapper {
+    width: 100%;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 10px);
+  }
+
+  .quicklinks-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* footer sonm logo w/ link need to be separated */
+}
+
+@media screen and (max-width: 480px) {
+  .floater-box a:link,
+  .floater-box a:visited {
+    font-size: 16px;
+  }
+
+  footer div.container {
+    grid-template-columns: 1fr;
+  }
+
+  footer div.container.erisa-credits {
+    flex-direction: column;
+  }
+}
