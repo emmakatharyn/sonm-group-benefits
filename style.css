@@ -385,15 +385,36 @@ footer div.container {
   height: 100%;
 }
 
+h5.modal-title {
+  font-size: 24px;
+  padding-left: 12px;
+  line-height: 1.2;
+}
+
+.modal-header img {
+  max-height: 69px;
+  max-width: 120px;
+}
+
+.modal-body h6 {
+  font-size: 20px;
+}
+
 .modal-body ul {
   padding-left: 0;
 }
 
+.modal-body ul li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .modal-body .bx {
-  font-size: 28px;
+  font-size: 16px;
 }
 
 .modal-body a:link,
 .modal-body a:visited {
-  font-size: 18px;
+  font-size: 16px;
 }
