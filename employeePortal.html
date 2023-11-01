@@ -97,11 +97,12 @@
       <h1 class="my-4 ps-2 display-5">Employee Information Resources</h1>
       <p class="ps-2">Please select one:</p>
       <div class="select-one-box">
-        <button class="btn on">I am a State Employee</button>
-        <button class="btn">I am a Local Public Body (LPB) Employee</button>
+        <button class="btn on" id="iAmStateEE">I am a State Employee</button>
+        <button class="btn" id="iAmLPBEE">I am a Local Public Body (LPB) Employee</button>
       </div>
     </div>
 
+    <!-- state grid -->
     <div class="container portal-grid my-5" id="state-ee-grid">
       <a href="StateAgencyEmployee.html" class="btn btn-primary quicklink">
         <i class="bx bxs-folder-plus"></i>
@@ -138,6 +139,7 @@
       >
     </div>
 
+    <!-- LPB GRID -->
     <div class="container portal-grid my-5" id="LPB-ee-grid">
       <a href="https://eform.gsd.state.nm.us/ebb_benefitsenrollment_cover.aspx" class="btn btn-primary quicklink" target="_blank">
         <i class="bx bxs-folder-plus"></i>
@@ -251,5 +253,25 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script> -->
+    <script>
+      const stateEEBtn = document.getElementById("iAmStateEE");
+      const lpbEEBtn = document.getElementById("iAmLPBEE");
+      const stateEEInfo = document.getElementById("state-ee-grid");
+      const lpbEEInfo = document.getElementById("LPB-ee-grid");
+
+      stateEEBtn.addEventListener("click", function () {
+        stateEEBtn.classList.add("on");
+        lpbEEBtn.classList.remove("on");
+        lpbEEInfo.style.display = "none";
+        stateEEInfo.style.display = "grid";
+      });
+
+      lpbEEBtn.addEventListener("click", function () {
+        lpbEEBtn.classList.add("on");
+        stateEEBtn.classList.remove("on");
+        stateEEInfo.style.display = "none";
+        lpbEEInfo.style.display = "grid";
+      });
+    </script>
   </body>
 </html>
