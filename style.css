@@ -339,7 +339,7 @@ footer div.container {
 }
 
 /* Open Enrollment pg */
-#oeOpener .container {
+.container.opener {
   max-width: 1000px;
 }
 
@@ -417,4 +417,52 @@ h5.modal-title {
 .modal-body a:link,
 .modal-body a:visited {
   font-size: 16px;
+}
+
+.select-one-box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.select-one-box .btn {
+  background-color: #e9e9e9;
+  color: #1b3f66;
+  width: 45%;
+  height: 48px;
+  border-radius: 2px;
+  line-height: 1;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.select-one-box .btn:hover {
+  background-color: #f09d4b;
+}
+
+.select-one-box .btn.on {
+  background-color: #f09d4b;
+}
+
+/* Portal Grid */
+.portal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.portal-grid .btn.btn-primary.quicklink {
+  background-color: #e9e9e9;
+  color: #1b3f66;
+  border: 1px solid #d1d1d379;
+}
+
+.portal-grid i {
+  color: #3278c4;
+}
+
+.portal-grid .btn.btn-primary.quicklink:nth-child(2n),
+.portal-grid .btn.btn-primary.quicklink:nth-child(2n) i {
+  background-color: #3278c4;
+  color: #e9e9e9;
 }
