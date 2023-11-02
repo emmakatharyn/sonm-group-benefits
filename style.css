@@ -492,3 +492,10 @@ h5.modal-title {
 .list-box li {
   line-height: 2;
 }
+
+#getStarted .modal-body ul li {
+  display: block;
+  margin-bottom: 12px;
+  line-height: 1.2;
+  font-size: 18px;
+}
