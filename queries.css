@@ -48,6 +48,17 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .list-box li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .list-box li a:link,
+  .list-box li a:visited {
+    /* font-size: 18px; */
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 782px) {
@@ -65,6 +76,19 @@
 
   .quicklinks-container {
     flex-direction: column;
+  }
+
+  /* employerResources */
+  .side-by-side {
+    width: 100%;
+    flex-direction: column;
+  }
+  .list-box {
+    width: 100%;
+  }
+  .list-box li a:link,
+  .list-box li a:visited {
+    font-size: 22px;
   }
 }
 
