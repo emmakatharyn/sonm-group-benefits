@@ -508,3 +508,13 @@ h5.modal-title {
   line-height: 1.2;
   font-size: 18px;
 }
+
+#adminLetters ul li {
+  /* line-height: ; */
+  line-height: 2;
+}
+
+#adminLetters a:link,
+#adminLetters a:visited {
+  font-size: 18px;
+}
