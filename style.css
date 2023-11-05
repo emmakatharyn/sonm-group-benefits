@@ -46,6 +46,12 @@ footer p {
   color: #3587df;
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn.btn-primary {
   border: none;
 }
