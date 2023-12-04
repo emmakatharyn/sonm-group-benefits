@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /expiredcontent/
+Disallow: /restricted/
+
+User-agent: Adsbot-Google

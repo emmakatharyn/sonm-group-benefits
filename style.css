@@ -146,9 +146,10 @@ header.container-lg {
   color: #eee;
 }
 
-.news-btn {
+.news-content .btn.news-btn {
+  display: inline-block;
   font-size: 20px;
-  padding: 14px;
+  padding: 14px 18px;
   margin-bottom: 6px;
 }
 
