@@ -358,12 +358,19 @@ footer div.container {
   width: auto;
 } */
 
+.btn.btn-light {
+  color:#aaa;
+}
+.btn.btn-light:hover {
+  color:#000;
+}
+
 #carrierPresentations .row .col-sm-4 {
   padding: 0;
 }
 
 .card {
-  width: 100%;
+  width: 96%;
   height: 286px;
 }
 
@@ -380,6 +387,7 @@ footer div.container {
 }
 .card .card-title {
   font-size: 18px;
+  margin-bottom: 16px;
 }
 
 /* .card-img-top {
