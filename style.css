@@ -359,10 +359,10 @@ footer div.container {
 } */
 
 .btn.btn-light {
-  color:#aaa;
+  color: #aaa;
 }
 .btn.btn-light:hover {
-  color:#000;
+  color: #000;
 }
 
 #carrierPresentations .row .col-sm-4 {
@@ -371,6 +371,10 @@ footer div.container {
 
 .card {
   width: 96%;
+  /* height: 286px; */
+}
+
+#carrierPresentations .card {
   height: 286px;
 }
 
@@ -399,6 +403,31 @@ footer div.container {
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
+}
+
+.recipesContainer {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.recipesContainer p.card-text {
+  font-size: 16px;
+}
+
+.recipesContainer .card-text:last-child {
+  margin-bottom: 12px;
+}
+
+.recipesContainer .card img {
+  object-fit: cover;
+  width: 286px;
+  height: 286px;
+}
+
+.recipesContainer .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h5.modal-title {
