@@ -358,6 +358,31 @@ footer div.container {
   width: auto;
 } */
 
+.volben-container {
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.volben-carrier {
+  /* height: 1400px; */
+  width: 23%;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 12px;
+
+  background-color: #f3f3f3;
+}
+
+.imgHeight {
+  display: block;
+  height: 140px;
+  line-height: 140px;
+}
+
 .btn.btn-light {
   color: #aaa;
 }
